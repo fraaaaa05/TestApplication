@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="insert_number">Insert number:</string>
+    <string name="guess">Guess</string>
+    <string name="winner">YOU GUESSED!</string>
+    <string name="looser">You lost</string>
+    <string name="tentativi">Attempts: %1$d</string>
+    <string name="too_high">Number too high</string>
+    <string name="too_low">Number too low</string>
+    <string name="average">Average Attempts: %1$d</string>
+    <string name="punteggio">Points: %1$d</string>
+    <string name="new_game">New Game</string>
+    <string name="games_history">Games history</string>
+</resources>

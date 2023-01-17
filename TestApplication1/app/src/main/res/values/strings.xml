@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Indovina Il Numero</string>
+    <string name="insert_number">Inserisci un numero</string>
+    <string name="guess">Indovina</string>
+    <string name="winner">HAI INDOVINATO!</string>
+    <string name="looser">Hai perso</string>
+    <string name="tentativi">Tentativi: %1$d</string>
+    <string name="too_high">Numero troppo alto</string>
+    <string name="too_low">Numero troppo basso</string>
+    <string name="average">Media Tentativi: %1$d</string>
+    <string name="punteggio">Punteggio: %1$d</string>
+    <string name="new_game">Nuova partita</string>
+    <string name="buttonhistory">ButtonHistory</string>
+    <string name="history">Storico</string>
+    <string name="storico">storico</string>
+    <string name="games_history">Storico partite</string>
+
+</resources>
