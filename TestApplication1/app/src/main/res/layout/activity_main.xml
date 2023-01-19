@@ -5,14 +5,14 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/my_purple"
+    android:background="@drawable/sfondoapp"
     android:orientation="vertical"   
     android:padding="20dp"
     tools:context=".activities.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,9 +25,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
                 android:textAlignment="center"
-                android:textColor="#ffff00"
-                android:textSize="34sp"
-                />
+                android:textColor="@color/white"
+                android:textSize="34sp" />
 
 
             <TextView
@@ -38,7 +37,7 @@
                 android:layout_marginTop="30dp"
                 android:text="@string/insert_number"
                 android:textAlignment="center"
-                android:textColor="#ffff00"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <EditText
@@ -46,8 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number"
-                />
+                android:inputType="number" />
 
             <Button
                 android:id="@+id/button_guess"
@@ -55,19 +53,18 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="#ffff00"
+                android:backgroundTint="#008080"
                 android:text="@string/guess"
                 android:textAlignment="center"
-                android:textColor="#9400d3" />
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textViewEsito"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:textSize="15sp"
-                android:textColor="#ffff00"
-                />
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textNumTentativi"
@@ -75,7 +72,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:text="@string/tentativi"
-                android:textColor="#ffff00" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/textMedia"
@@ -83,7 +81,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:text="@string/average"
-                android:textColor="#ffff00" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/textPunteggio"
@@ -91,7 +90,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:text="@string/punteggio"
-                android:textColor="#ffff00" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -108,23 +108,29 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="#ffff00"
+                android:backgroundTint="#008080"
                 android:text="@string/new_game"
                 android:textAlignment="center"
-                android:textColor="#9400d3" />
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/button_history"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/history"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="#ffff00"
+                android:backgroundTint="#008080"
+                android:text="@string/history"
                 android:textAlignment="center"
-                android:textColor="#9400d3"/>
+                android:textColor="@color/white" />
         </LinearLayout>
 
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logoitis" />
 
 </LinearLayout>
